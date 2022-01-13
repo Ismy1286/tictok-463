@@ -3,19 +3,23 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		71DA4D7D801CA92AFF32DBA7 /* Pods_dz_463.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 682F5BAC6E793F5A4914115A /* Pods_dz_463.framework */; };
 		CEEF2E0A278F2E84004916AC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEF2E09278F2E84004916AC /* AppDelegate.swift */; };
 		CEEF2E0C278F2E84004916AC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEF2E0B278F2E84004916AC /* SceneDelegate.swift */; };
 		CEEF2E0E278F2E84004916AC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEF2E0D278F2E84004916AC /* ViewController.swift */; };
 		CEEF2E11278F2E84004916AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEEF2E0F278F2E84004916AC /* Main.storyboard */; };
 		CEEF2E13278F2E88004916AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEEF2E12278F2E88004916AC /* Assets.xcassets */; };
 		CEEF2E16278F2E88004916AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEEF2E14278F2E88004916AC /* LaunchScreen.storyboard */; };
+		CEF2A845278FEB9A004D914B /* TicTokCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF2A844278FEB9A004D914B /* TicTokCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4908CF42C93F562648F17A13 /* Pods-dz-463.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dz-463.release.xcconfig"; path = "Target Support Files/Pods-dz-463/Pods-dz-463.release.xcconfig"; sourceTree = "<group>"; };
+		682F5BAC6E793F5A4914115A /* Pods_dz_463.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_dz_463.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEEF2E06278F2E84004916AC /* dz-463.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "dz-463.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEEF2E09278F2E84004916AC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CEEF2E0B278F2E84004916AC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +28,8 @@
 		CEEF2E12278F2E88004916AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CEEF2E15278F2E88004916AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CEEF2E17278F2E88004916AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEF2A844278FEB9A004D914B /* TicTokCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicTokCell.swift; sourceTree = "<group>"; };
+		D74D2DD6D9D899DE1358F959 /* Pods-dz-463.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dz-463.debug.xcconfig"; path = "Target Support Files/Pods-dz-463/Pods-dz-463.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +37,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				71DA4D7D801CA92AFF32DBA7 /* Pods_dz_463.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1F685E808F1BFD6506CDE507 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D74D2DD6D9D899DE1358F959 /* Pods-dz-463.debug.xcconfig */,
+				4908CF42C93F562648F17A13 /* Pods-dz-463.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		CEEF2DFD278F2E84004916AC = {
 			isa = PBXGroup;
 			children = (
 				CEEF2E08278F2E84004916AC /* dz-463 */,
 				CEEF2E07278F2E84004916AC /* Products */,
+				1F685E808F1BFD6506CDE507 /* Pods */,
+				F67D8D1FA53905B540056902 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -63,8 +81,17 @@
 				CEEF2E12278F2E88004916AC /* Assets.xcassets */,
 				CEEF2E14278F2E88004916AC /* LaunchScreen.storyboard */,
 				CEEF2E17278F2E88004916AC /* Info.plist */,
+				CEF2A844278FEB9A004D914B /* TicTokCell.swift */,
 			);
 			path = "dz-463";
+			sourceTree = "<group>";
+		};
+		F67D8D1FA53905B540056902 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				682F5BAC6E793F5A4914115A /* Pods_dz_463.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +101,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CEEF2E1A278F2E88004916AC /* Build configuration list for PBXNativeTarget "dz-463" */;
 			buildPhases = (
+				012185EFC23198B17DD61B09 /* [CP] Check Pods Manifest.lock */,
 				CEEF2E02278F2E84004916AC /* Sources */,
 				CEEF2E03278F2E84004916AC /* Frameworks */,
 				CEEF2E04278F2E84004916AC /* Resources */,
+				EBC4FC5F3D51D5F6A7115089 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -132,11 +161,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		012185EFC23198B17DD61B09 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-dz-463-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EBC4FC5F3D51D5F6A7115089 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-dz-463/Pods-dz-463-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-dz-463/Pods-dz-463-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-dz-463/Pods-dz-463-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CEEF2E02278F2E84004916AC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEF2A845278FEB9A004D914B /* TicTokCell.swift in Sources */,
 				CEEF2E0E278F2E84004916AC /* ViewController.swift in Sources */,
 				CEEF2E0A278F2E84004916AC /* AppDelegate.swift in Sources */,
 				CEEF2E0C278F2E84004916AC /* SceneDelegate.swift in Sources */,
@@ -283,6 +355,7 @@
 		};
 		CEEF2E1B278F2E88004916AC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D74D2DD6D9D899DE1358F959 /* Pods-dz-463.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -301,6 +374,7 @@
 		};
 		CEEF2E1C278F2E88004916AC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4908CF42C93F562648F17A13 /* Pods-dz-463.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
